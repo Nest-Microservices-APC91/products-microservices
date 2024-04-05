@@ -1,5 +1,5 @@
-export enum TCP {
-  ProductTcpQueued = 'products',
+export enum Microservices {
+  PRODUCT_SERVICE = 'products',
 }
 
 export enum ProductTCP {

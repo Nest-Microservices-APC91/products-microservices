@@ -32,6 +32,6 @@ export class ProductsController {
 
   @MessagePattern(ProductTCP.DELETE)
   remove(@Payload('id') id: number) {
-    return this.productsService.remove(+id);
+    return this.productsService.remove(id);
   }
 }
