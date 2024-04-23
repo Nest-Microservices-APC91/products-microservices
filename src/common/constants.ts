@@ -1,8 +1,4 @@
-export enum Microservices {
-  PRODUCT_SERVICE = 'products',
-}
-
-export enum ProductTCP {
+export enum Products {
   CREATE = 'CREATE_PRODUCT',
   FIND_ALL = 'FIND_ALL_PRODUCTS',
   FIND_ONE = 'FIND_ONE_PRODUCT',
